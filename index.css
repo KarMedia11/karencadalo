@@ -62,6 +62,9 @@ nav{
     display: none;
 }
 
+.email {
+  
+}
 
 
 .nav-container .links {
@@ -233,10 +236,22 @@ h1.content .typewriter {
     border: 0.2rem solid rgb(255, 252, 251);
     border-radius: 50%;
     rgb(0, 247, 255)
-    margin: 5px 10px;
+    margin: 5px 20px;
     font-size: 1.5rem;
     transition: 0.2s linear;
 }
+
+.email a {
+    font-size: 14px;
+    color: #fff; /* or your theme color */
+    text-decoration: none;
+    padding: 50px;
+    margin: 50px;
+  }
+  
+  .email a:hover {
+    text-decoration: underline;
+  }
 
 .social-links i:hover{
     scale: 1.3;
@@ -807,8 +822,6 @@ button {
     font-weight: 600;
 }
 
-
-
 .proj-link-text {
     display: block;
     margin-top: 10px;
@@ -831,3 +844,4 @@ button {
     border: none;
     transition: background-color 0.3s ease;
   }
+
